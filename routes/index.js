@@ -16,7 +16,6 @@ module.exports = (app) => {
       const result = await address.execute(req.query.postcode)
       res.status(200).json(result)
     } catch (error) {
-      console.error('++ routes catch error', error)
       res.status(error.status).json({ error })
     }
   })
