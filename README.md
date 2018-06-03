@@ -1,6 +1,6 @@
 # Address Lookup
 
-Using [getaddress.io](https://getaddress.io/) & [Google Maps Platform](https://cloud.google.com/maps-platform/).
+Using [getaddress.io](https://getaddress.io/).
 
 ### What is this?
 
@@ -12,7 +12,7 @@ Probably, but I hadn't made one before and thought it might be fun.
 
 ### Usage:
 
-If you clone this repo, you should be able to work it out. You will need to get keys from `getaddress.io` and `Google Places` to populate the `.env_blank` file, this will then need to be renamed to `.env`
+If you clone this repo, you should be able to work it out. You will need to get keys from `getaddress.io` to populate the `.env_blank` file, this will then need to be renamed to `.env`
 
 `::GET`
  - `/` - daily stats for number of searches (per 3rd party)

@@ -2,17 +2,10 @@
   "providers": {
     "getAddress": {
       "name": "getaddress",
-      "endpoint": "https://api.getAddress.io/find/{POSTCODE}?api-key={API_KEY}",
+      "endpoint": "https://api.getAddress.io/v2/uk/{POSTCODE}?api-key={API_KEY}",
       "doc": "https://getaddress.io/Documentation",
       "inService": true,
       "limit": 20
-    },
-    "google": {
-      "name": "google",
-      "endpoint": "https://maps.googleapis.com/maps/api/place/details/json?key={API_KEY}&placeid={POSTCODE}",
-      "doc": "https://developers.google.com/places/web-service/details",
-      "inService": true,
-      "limit": 1000
     }
   }
 }

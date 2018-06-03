@@ -1,0 +1,8 @@
+{
+  "build_response": "building the response failed",
+  "build_request": "building the request failed",
+  "no_input": "no input provided",
+  "no_providers": "no provider is available",
+  "sanitisation": "input was not valid",
+  "third_party": "third party provider request failed"
+}
